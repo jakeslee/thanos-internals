@@ -21,10 +21,10 @@ import (
 
 	"github.com/prometheus/prometheus/promql/parser"
 	"github.com/thanos-io/thanos/internal/cortex/cortexpb"
-	"github.com/thanos-io/thanos/internal/cortex/querier/queryrange"
 	cortexutil "github.com/thanos-io/thanos/internal/cortex/util"
 	"github.com/thanos-io/thanos/internal/cortex/util/spanlogger"
 	queryv1 "github.com/thanos-io/thanos/pkg/api/query"
+	"github.com/thanos-io/thanos/pkg/cortex/querier/queryrange"
 )
 
 // queryInstantCodec is used to encode/decode Thanos instant query requests and responses.

@@ -4,6 +4,7 @@
 package main
 
 import (
+	"github.com/thanos-io/thanos/pkg/cortex/querier/queryrange"
 	"net"
 	"net/http"
 	"time"
@@ -21,7 +22,6 @@ import (
 
 	cortexfrontend "github.com/thanos-io/thanos/internal/cortex/frontend"
 	"github.com/thanos-io/thanos/internal/cortex/frontend/transport"
-	"github.com/thanos-io/thanos/internal/cortex/querier/queryrange"
 	cortexvalidation "github.com/thanos-io/thanos/internal/cortex/util/validation"
 	"github.com/thanos-io/thanos/pkg/api"
 	"github.com/thanos-io/thanos/pkg/component"

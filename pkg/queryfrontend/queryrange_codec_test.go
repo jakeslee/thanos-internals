@@ -12,7 +12,7 @@ import (
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/weaveworks/common/httpgrpc"
 
-	"github.com/thanos-io/thanos/internal/cortex/querier/queryrange"
+	"github.com/thanos-io/thanos/pkg/cortex/querier/queryrange"
 
 	"github.com/efficientgo/core/testutil"
 	queryv1 "github.com/thanos-io/thanos/pkg/api/query"

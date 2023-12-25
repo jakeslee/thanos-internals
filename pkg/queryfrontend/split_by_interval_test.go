@@ -12,7 +12,7 @@ import (
 	"github.com/weaveworks/common/httpgrpc"
 
 	"github.com/stretchr/testify/require"
-	"github.com/thanos-io/thanos/internal/cortex/querier/queryrange"
+	"github.com/thanos-io/thanos/pkg/cortex/querier/queryrange"
 )
 
 func TestSplitQuery(t *testing.T) {

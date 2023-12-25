@@ -10,8 +10,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/thanos-io/thanos/internal/cortex/querier/queryrange"
 	"github.com/thanos-io/thanos/pkg/compact/downsample"
+	"github.com/thanos-io/thanos/pkg/cortex/querier/queryrange"
 )
 
 // DownsampledMiddleware creates a new Middleware that requests downsampled data

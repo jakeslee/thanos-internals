@@ -17,10 +17,10 @@ import (
 	cortexcache "github.com/thanos-io/thanos/internal/cortex/chunk/cache"
 	"github.com/thanos-io/thanos/internal/cortex/frontend/transport"
 	"github.com/thanos-io/thanos/internal/cortex/querier"
-	"github.com/thanos-io/thanos/internal/cortex/querier/queryrange"
 	"github.com/thanos-io/thanos/internal/cortex/util/flagext"
 	cortexvalidation "github.com/thanos-io/thanos/internal/cortex/util/validation"
 	"github.com/thanos-io/thanos/pkg/cacheutil"
+	"github.com/thanos-io/thanos/pkg/cortex/querier/queryrange"
 	"github.com/thanos-io/thanos/pkg/exthttp"
 	"github.com/thanos-io/thanos/pkg/model"
 )

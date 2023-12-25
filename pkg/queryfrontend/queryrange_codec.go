@@ -19,8 +19,8 @@ import (
 	"github.com/prometheus/prometheus/promql/parser"
 	"github.com/weaveworks/common/httpgrpc"
 
-	"github.com/thanos-io/thanos/internal/cortex/querier/queryrange"
 	cortexutil "github.com/thanos-io/thanos/internal/cortex/util"
+	"github.com/thanos-io/thanos/pkg/cortex/querier/queryrange"
 
 	queryv1 "github.com/thanos-io/thanos/pkg/api/query"
 	"github.com/thanos-io/thanos/pkg/store/storepb"

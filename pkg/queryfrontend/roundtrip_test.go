@@ -24,8 +24,8 @@ import (
 	"github.com/efficientgo/core/testutil"
 	cortexcache "github.com/thanos-io/thanos/internal/cortex/chunk/cache"
 	"github.com/thanos-io/thanos/internal/cortex/cortexpb"
-	"github.com/thanos-io/thanos/internal/cortex/querier/queryrange"
 	cortexvalidation "github.com/thanos-io/thanos/internal/cortex/util/validation"
+	"github.com/thanos-io/thanos/pkg/cortex/querier/queryrange"
 	"github.com/thanos-io/thanos/pkg/store/labelpb"
 )
 

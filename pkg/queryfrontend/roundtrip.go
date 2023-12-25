@@ -18,8 +18,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/thanos-io/thanos/internal/cortex/querier/queryrange"
 	"github.com/thanos-io/thanos/internal/cortex/util/validation"
+	"github.com/thanos-io/thanos/pkg/cortex/querier/queryrange"
 )
 
 const (
